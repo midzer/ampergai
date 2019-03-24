@@ -2,13 +2,16 @@ baseurl = "https://ampergai.de"
 languageCode = "de-BAR"
 title = "Pfiff' ausm Ampergai"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://midzer.de\">midzer</a> 2019"
+copyright = "2019 <a href=\"https://midzer.de\">midzer</a>"
 disqusShortname = ""
 googleAnalytics = ""
 # Number of posts per page
 Paginate = 5
 enableRobotsTXT = true
 
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "midzer" # Author full name
 
 [params.assets]
 customCSS = ["css/custom.css"]
@@ -16,7 +19,7 @@ customCSS = ["css/custom.css"]
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "Pfiff' ausm Ampergai" # Title for home page
+homeTitle = "" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 description = "Des is a Blog auf boarisch mid kurze Gschichtn ausm Lem. De Beiträg san ausm Ampergai um Minga rum. Fürn gloana Duascht wia a Pfiff' Bier. Zamleitn und Prost!"
 related = true # Includes related articles
@@ -27,7 +30,7 @@ appID = ""
 pageID = ""
 
 [params.opengraph.twitter]
-page = "midzer" # Twitter Page username. If not set, params.social.twitter will be used.
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
 
 [params.social]
 
@@ -38,6 +41,10 @@ linkedin = ""
 facebook = ""
 instagram = ""
 codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","twitter","rss"]
 
 [taxonomies]
 tag ="tags"
