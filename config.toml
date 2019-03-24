@@ -1,0 +1,46 @@
+baseurl = "https://ampergai.de"
+languageCode = "de-BAR"
+title = "Pfiff' ausm Ampergai"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://midzer.de\">midzer</a> 2019"
+disqusShortname = ""
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
+
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "Pfiff' ausm Ampergai" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+description = "Des is a Blog auf boarisch mid kurze Gschichtn ausm Lem. De Beiträg san ausm Ampergai um Minga rum. Fürn gloana Duascht wia a Pfiff' Bier. Zamleitn und Prost!"
+related = true # Includes related articles
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "midzer" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = "midzer"
+github = "midzer"
+email = ""
+linkedin = ""
+facebook = ""
+instagram = ""
+codepen = ""
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
