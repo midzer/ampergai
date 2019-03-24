@@ -14,7 +14,7 @@ includeContent = true # Includes whole content in rss
 authorName = "midzer" # Author full name
 
 [params.assets]
-customCSS = ["css/custom.css"]
+customCSS = [""]
 
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
@@ -35,7 +35,7 @@ page = "" # Twitter Page username. If not set, params.social.twitter will be use
 [params.social]
 
 twitter = "midzer"
-github = "midzer"
+github = ""
 email = ""
 linkedin = ""
 facebook = ""
@@ -44,7 +44,7 @@ codepen = ""
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["github","twitter","rss"]
+platforms = ["twitter","github","email","email","linkedin","gitlab","rss"]
 
 [taxonomies]
 tag ="tags"
