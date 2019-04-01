@@ -19,7 +19,7 @@ customCSS = [""]
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "" # Title for home page
+homeTitle = "Pfiff' ausm Ampergai" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 description = "Des is a Blog auf boarisch mid kurze Gschichtn ausm Lem. De Beiträg san ausm Ampergai um Minga rum. Fürn gloana Duascht wia a Pfiff' Bier. Zamleitn und Prost!"
 related = true # Includes related articles
