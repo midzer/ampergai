@@ -2,7 +2,7 @@ baseurl = "https://ampergai.de"
 languageCode = "de-BAR"
 title = "Pfiff' ausm Ampergai"
 theme = "kiss"
-copyright = "2019 <a href=\"https://midzer.de\">midzer</a>"
+copyright = "" # unused variable
 disqusShortname = ""
 googleAnalytics = ""
 # Number of posts per page
