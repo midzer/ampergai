@@ -1,7 +1,8 @@
-baseurl = "https://ampergai.de"
+baseURL = "https://ampergai.de"
 languageCode = "de-BAR"
 title = "Pfiff' ausm Ampergai"
 theme = "kiss"
+
 copyright = "" # unused variable
 disqusShortname = ""
 googleAnalytics = ""
