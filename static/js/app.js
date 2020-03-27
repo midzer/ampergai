@@ -1,0 +1,6 @@
+quicklink({
+  ignores: [
+      /.jpg/,
+      /.pdf/
+  ]
+});
