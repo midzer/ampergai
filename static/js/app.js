@@ -5,7 +5,8 @@ if ('IntersectionObserver' in window) {
     quicklink({
       ignores: [
           /.jpg/,
-          /.pdf/
+          /.pdf/,
+          /.xml/
       ]
     });
   };
