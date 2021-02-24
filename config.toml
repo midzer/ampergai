@@ -14,6 +14,9 @@ enableRobotsTXT = true
 includeContent = true # Includes whole content in rss
 authorName = "midzer" # Author full name
 
+[params.assets]
+customCSS = ["css/custom.css"]
+
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
@@ -31,7 +34,6 @@ pageID = ""
 page = "" # Twitter Page username. If not set, params.social.twitter will be used.
 
 [params.social]
-
 twitter = "midzer"
 github = ""
 email = ""
